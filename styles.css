@@ -1,0 +1,177 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    color: black;
+    background: #fafafa;
+}
+
+.main_content{
+    margin-left: 250px;
+    padding-top: 5%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.sidebar{
+    background: white;
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 2;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    padding: 30px 30px;
+    transition: all 0.5s ease;  
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar li a:hover{
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.button{
+    background: black;
+    color: white;
+    padding: 8px 30px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button:hover{
+    background: darkcyan;
+    color: white;
+}
+
+.column {
+    margin-left: 15px;
+    flex: 50%;
+}
+
+.column.right{
+    margin-left: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+.intro-name{
+    font-size: 45px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.column img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.intro-name:hover{
+    color: darkcyan;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    color: gray;
+    font-weight: 100;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.connect ul img{
+    margin-top: 10px;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+}
+
+.connect ul img:hover{
+    filter: invert(38%) sepia(99%) saturate(539%) hue-rotate(135deg) brightness(90%) contrast(103%);
+    height: 45px;
+    width: 45px;
+}
+
+.resume li {
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 10px;
+    list-style-type: disc;
+    align-items: left;
+    line-height: 1.5;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+footer {
+    height: 250px;
+}
+
+@media only screen and (max-width: 1100px){
+    .main_content{
+        margin-left: 0;
+    }
+
+    .handburger{
+        background-color: transparent;
+        display: block;
+        padding: 25px;
+        border: none;
+        position: fixed;
+        top: 0;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .sidebar{
+        width: 60%;
+        align-items: center;
+    }
+
+    .sidebar ul{
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .row{
+        flex-direction: column;
+    }
+}

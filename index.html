@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Maven Pro:100,400,700'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title> Rushiraj's Portfolio</title>
+        <meta charset="utf-8">    
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/b861a963d4.js" crossorigin="anonymous"></script>
+
+        <!-- SIDEBAR -->
+        <div class="wrapper">
+            <div class="sidebar" id="sidebar">
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#resume-me">Resume</a></li>
+                    <li><a href="#projects-me">Projects</a></li>
+                </ul>
+                <div class="spacer"></div>
+                <form method="get" action="./assets/Rushiraj's Resume.pdf">
+                    <button type="submit" class="button"><i class="fa-solid fa-file-arrow-down fa-lg" style="color: #ffffff;"></i> Resume</button>
+                </form>
+                <br>
+                <q> The bad news is time flies ...
+                    The good news is you’re the pilot.
+                </q>
+                <br>
+            </div>
+        </div>
+        <button class="handburger" onclick="toggleSidebar()"><i class="fa-solid fa-bars fa-2xl" style="color: #000000;"></i></button>
+
+        <!-- MAIN PAGE -->
+        <div class="main_content"> 
+            <section id="about-me">
+                <div class="row">
+                    <div class="column" align="center">
+                        <img src="./assets/profile.png" alt="profile" width="55%">
+                        <div class="connect">
+                            <ul>
+                                <a href='https://www.linkedin.com/in/gadhvirushiraj/'><img src="./assets/icons/linkedin.svg"></a>
+                                <a href='https://github.com/gadhvirushiraj'><img src="./assets/icons/square-github.svg"></a>
+                                <a href='https://www.linkedin.com/in/gadhvirushiraj/'><img src="./assets/icons/square-instagram.svg"></a>
+                                <a href='mailto: gadhvirushiraj@gmail.com,rushiraj.gadhvi@plaksha.edu.in'><img src="./assets/icons/square-envelope-solid.svg"></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h2 class="intro-name">
+                            Hi, I'm <br>
+                            Rushiraj Gadhvi
+                        </h2>
+                        <h3> COMPUTER SCIENCE UNDERGRADUATE AT PLAKSHA UNIVERSITY </h3>
+                        <br>
+                        <p>
+                            I am a curious and passionate computer science student,
+                            looking forward to explore exciting new fronts in machine learning and data science. 
+                            Love to experiment and find unique solutions to challenging problem. 
+                            I have built multiple innovative full stack applications. My track record to adapt
+                            quickly to new practices and contiguous drive towards goal makes me a dependable team member. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="resume-me">
+                <p style = "font-family:'Maven Pro',sans-serif;font-size:25px;font-weight:100;margin:0; margin-top:20px;">
+                    Resume
+                </p>
+                <div class="row resume">
+                    <div class="column">
+                        <h2> skills </h2>
+                        <ul>
+                            <li>Python ( PyTorch, pandas, numpy, matpoltlib, plotly, NetworkX, QuTiP ) </li>
+                            <li> Dart, C++, HTML, CSS, Javascript</li>
+                            <li>Firebase, MongoDB, SQL</li>
+                            <li>Flutter, Flask</li>
+                            <li>Micropython, Arduino, Raspberry Pi</li>
+                            <li>Electronics Prototyping (hardware)</li>
+                            <li>Figma, Webflow, Inkscape, Canva</li>
+                        </ul>
+                        <h2> achievements </h2>
+                        <ul>
+                            <li> ASW AI & ML Scholarship, 2023 Summer Batch</li>
+                            <li> UN Millenium Fellowship, 2022 Batch</li>
+                            <li> First Position at IIT Bombay, Ecell BnB Event, 2022</li>
+                            <li> Presented at International Conference ICOSTART, 2019</li> 
+                            <li> First Position in Science Modeling at IPR (Institute of Plasma Research), 2019</li>
+                        </ul>
+                    </div>
+                    <div class="column rightf">
+                        <h2> experience </h2>
+                        <ul>
+                            <li> Physical Research Laboratory (PRL) | Summer Research Intern | 1st, June -  31st, July 2023 </li>  
+                            <li> Game Designer Intern at MADIEE Games | June, 2021</li>
+                            <li> Freelance | Designing and Editing | 2021 - Present</li>
+                        </ul>
+                        <h2> education </h2>
+                        <ul>
+                            <li> Plaksha University | B.Tech in Computer Science and Artificial Intelligence | 2020 - 2025 </li>
+                            <li> AI Programming with Python Nanodegree | Udacity | 15,June 2023 - Present</li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+            </section>
+            <br>
+            <hr>
+            <section id="projects-me">
+
+            </section>
+        </div>
+
+        <footer> </footer> 
+    </body>
+</html>
