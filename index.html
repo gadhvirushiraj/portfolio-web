@@ -38,7 +38,7 @@
             <section id="about-me">
                 <div class="row">
                     <div class="column" align="center">
-                        <img src="./assets/profile.png" alt="profile" width="55%">
+                        <img class='profile' src="./assets/profile.png" alt="profile" width="55%">
                         <div class="connect">
                             <ul>
                                 <a href='https://www.linkedin.com/in/gadhvirushiraj/'><img src="./assets/icons/linkedin.svg"></a>
@@ -53,9 +53,9 @@
                             Hi, I'm <br>
                             Rushiraj Gadhvi
                         </h2>
-                        <h3> COMPUTER SCIENCE UNDERGRADUATE AT PLAKSHA UNIVERSITY </h3>
+                        <h3 class="current"> COMPUTER SCIENCE UNDERGRADUATE AT PLAKSHA UNIVERSITY </h3>
                         <br>
-                        <p>
+                        <p class="roboto">
                             I am a curious and passionate computer science student,
                             looking forward to explore exciting new fronts in machine learning and data science. 
                             Love to experiment and find unique solutions to challenging problem. 
@@ -65,11 +65,9 @@
                     </div>
                 </div>
             </section>
-            <hr>
+<hr>
             <section id="resume-me">
-                <p>
-                    Resume
-                </p>
+                <p class="subtitle">Resume</p>
                 <div class="row resume">
                     <div class="column">
                         <h2> skills </h2>
@@ -91,7 +89,7 @@
                             <li> First Position in Science Modeling at IPR (Institute of Plasma Research), 2019</li>
                         </ul>
                     </div>
-                    <div class="column rightf">
+                    <div class="column right">
                         <h2> experience </h2>
                         <ul>
                             <li> Physical Research Laboratory (PRL) | Summer Research Intern | 1st, June -  31st, July 2023 </li>  
@@ -105,15 +103,94 @@
                         </ul>
                     </div>
                 </div>
-                <br>
+            <br>
             </section>
             <br>
-            <hr>
+<hr>
             <section id="projects-me">
+                <p class="subtitle">Projects</p>
+<br>
+                <!-- page2circuit -->
+                <div class="card">
+                    <div class="container">
+                      <div class="row">
+                        <div class="column">
+                            <h2>page2circuit</h2> 
+                            <p class="roboto">
+                            page2circuit converts a hand-drawn circuit into digital schematics. It was made using PyTorch and  OpenCV. 
+                            The model was trained using open dataset consisting about 14,000 hand-drawn images of 11 distinct components. 
+                            The model achieved validation accuracy of 90.35% and training accuracy of 99.9 %. 
+                            To make it accessible we decided to host using Streamlit, which extremely sharing friendly. 
+                            </p>
+                        </div>
+                        <div class="column alignimg">
+                            <img class='project-pic' src="./assets/projects/page2circuit.png" alt="page2circuit" width="100%">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <br> <br>
 
+                <!-- ekaant  -->
+                  <div class="card">
+                    <div class="container">
+                      <div class="row">
+                        <div class="column">
+                            <h2>ekaant</h2> 
+                            <p class="roboto">
+                                An application that guides you through your meditation practise. Ekaant offers individuals a platform to monitor their regular meditation progress.
+                                With the option to play soothing music in the background, it aids in developing a comfortable frame of mind for meditation.
+                                The app was created using the Flutter framework, which is accessible to Android and iOS users.
+                            </p>
+                        </div>
+                        <div class="column alignimg">
+                            <div class="row">
+                                <div class="alignimg"> 
+                                    <img class='project-pic' src="./assets/projects/ekaant1.png" alt="page2circuit" width="100%">
+                                </div>
+                                <div class="alignimg">
+                                    <img class='project-pic' src="./assets/projects/ekaant2.png" alt="page2circuit" width="100%">
+                                </div>
+                                <div class="alignimg">
+                                    <img class='project-pic' src="./assets/projects/ekaant3.png" alt="page2circuit" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <br> <br>
+
+                  <!-- housify  -->
+                  <div class="card">
+                    <div class="container">
+                      <div class="row">
+                        <div class="column">
+                            <h2>housify</h2> 
+                            <p class="roboto">
+                                Housify offers an all-in-one system solution for Society Management. Some of the major features that Housify provides to clients include maintenance payment, 
+                                member notices, organised data collection, tenancy agreement, rent payment, event booking, and ticket distribution.
+                                Housify is based on the flutter framework and uses firebase as its backend. To manage transactions, the Stripe payment gateway is implemented.
+                            </p>
+                        </div>
+                        <div class="column alignimg">
+                            <div class="row projectrow">
+                                <div class="alignimg"> 
+                                    <img class='project-pic' src="./assets/projects/housify1.png" alt="page2circuit" width="100%">
+                                </div>
+                                <div class="alignimg">
+                                    <img class='project-pic' src="./assets/projects/housify2.png" alt="page2circuit" width="100%">
+                                </div>
+                                <div class="alignimg">
+                                    <img class='project-pic' src="./assets/projects/housify3.png" alt="page2circuit" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>       
             </section>
         </div>
-
-        <footer> </footer> 
+        <footer></footer> 
     </body>
 </html>
