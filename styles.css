@@ -191,8 +191,14 @@ section {
     display: flex;
     padding-left: 5px;
     padding-right: 5px;
+    margin: 5px;
     align-items: center;
 }
+
+.projectrow {
+    display: flex;
+}
+
 
 a:link{
     color: black;
