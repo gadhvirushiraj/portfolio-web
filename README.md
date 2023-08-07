@@ -2,7 +2,8 @@
 
 ## 🔗 [Demo Link](https://gadhvirushiraj.github.io/portfolioME/)
 
-![Demo Video](./assets/gif/demo.gif)
+![Demo Image 1](./assets/demo1.png)
+![Demo Image 2](./assets/demo2.png)
 
 PortfolioME houses a minimalistic one-page portfolio designed to showcase your work, skills, and experiences in a straightforward and efficient manner. With a focus on simplicity and elegance (grayscale and single accent color), the portfolio is made with barebone HTML and CSS. It remains responsive across mobile, tablets and large screens.
 
