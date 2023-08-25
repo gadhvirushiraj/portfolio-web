@@ -199,6 +199,15 @@ section {
     display: flex;
 }
 
+.card .button{
+    margin: 10px;
+}
+
+.card .button:hover{
+    background: darkcyan;
+    color: white;
+}
+
 
 a:link{
     color: black;
@@ -278,6 +287,6 @@ footer {
     }
 
     .projectrow p{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
