@@ -144,9 +144,15 @@ section {
     margin-top:20px;
 }
 
+.sub-emoji {
+    font-size: 32px; /* Increase the font size for subtitle emoji */
+    vertical-align: middle; 
+}
+
 /* skills, experience, education, achivement titles */
 .resume h2 {
     margin-top: 40px;
+    padding-bottom: 10px;
 }
 
 /* LISTING INSIDE skills, experience, education, achivement */
@@ -156,8 +162,9 @@ section {
     font-size: 18px;
     margin-left: 10px;
     align-items: left;
-    line-height: 1.5;
-    font-weight: 200;
+    line-height: 1.7;
+    font-weight: 400;
+    list-style-type: '👉 '
 }
 
 /* PROJECT PREVIEW CARD */
